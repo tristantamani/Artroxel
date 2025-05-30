@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artroxel - Free Retro Pixel Games</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.cdnfonts.com/css/karmatic-arcade" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/exepixelperfect" rel="stylesheet">
+</head>
+<body id="top">
+  <header class="header">
+    <div class="header-bottom skewBg" data-header>
+      <div class="container">
+        <a href="#" class="logo">Artroxel</a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="homepage.html#home" class="navbar-link skewBg" data-nav-link>Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="homepage.html#about" class="navbar-link skewBg" data-nav-link>About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#games" class="navbar-link skewBg" data-nav-link>Games</a>
+            </li>
+            <li class="navbar-item">
+              <a href="community.html" class="navbar-link skewBg" data-nav-link>Community</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+            <i class="fa-solid fa-bars menu"></i>
+            <i class="fa-solid fa-xmark close"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Games-->
+  <section class="section games" id="games">
+    <div class="game-filter">
+      <h1 class="filter-heading">FILTER RESULTS</h1>
+      <div class="filter-menu">
+        <div class="menu-item">
+          <a href="#" class="tag-btn"><i class="fa-solid fa-caret-right dropdown"></i><strong>Tags</strong></a>
+          <div class="tag-menu">
+            <a href="#" class="tag-item"><i class="fa-solid fa-tag"></i> Adventure</a>
+            <a href="#" class="tag-item"><i class="fa-solid fa-tag"></i> Arcade</a>
+            <a href="#" class="tag-item"><i class="fa-solid fa-tag"></i> Card</a>
+            <a href="#" class="tag-item"><i class="fa-solid fa-tag"></i> Dungeon</a>
+            <a href="#" class="tag-item"><i class="fa-solid fa-tag"></i> Fighting</a>
+          </div>
+        </div>
+        <div class="menu-item">
+          <a href="#" class="tag-btn"><i class="fa-solid fa-caret-right dropdown"></i><strong>Platforms</strong></a>
+          <div class="tag-menu">
+            <a href="#" class="tag-item"><i class="fa-solid fa-globe"></i> Play in browser</a>
+            <a href="#" class="tag-item"><i class="fa-brands fa-windows"></i> Windows</a>
+            <a href="#" class="tag-item"><i class="fa-brands fa-apple"></i> macOS</a>
+            <a href="#" class="tag-item"><i class="fa-brands fa-linux"></i> Linux</a>
+            <a href="#" class="tag-item"><i class="fa-brands fa-android"></i> Android</a>
+            <a href="#" class="tag-item"><i class="fa-brands fa-apple"></i> iOS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="category-container">
+      <div class="filter-buttons">
+        <input type="text" placeholder="Search...">
+        <button class="active" data-name="all">All Games</button>
+        <button data-name="action">Action</button>
+        <button data-name="platformer">Platformer</button>
+        <button data-name="puzzle">Puzzle</button>
+        <button data-name="roguelite">Roguelites</button>
+        <button data-name="rpg">RPG/JRPG</button>
+      </div>
+    </div>
+    <div class="game-container">
+      <div class="filterable-cards">
+        <div class="card" data-name="action">
+          <img src="https://img.itch.zone/aW1nLzEwMzQxNTAyLmdpZg==/315x250%23cm/ManKx4.gif" alt="" />
+          <div class="card-body">
+            <a href="https://edgarmendoza.itch.io/help-no-brake" class="game-link">
+              <h6 class="card-title">HELP! NO BRAKE</h6>
+              <p class="card-dev">by Team Bean Loop</p>
+              <p class="card-text">Hey umm, your car won't brake anymore. So better clear all the levels to get it fixed I guess.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="action">
+          <img src="https://img.itch.zone/aW1nLzU1MjAxNjIuZ2lm/315x250%23cm/f6p2%2B7.gif" alt="" />
+          <div class="card-body">
+            <a href="https://overboy.itch.io/overgame" class="game-link">
+              <h6 class="card-title">OVERGAME</h6>
+              <p class="card-dev">by Overboy</p>
+              <p class="card-text">OVERGAME is a breaking-the-4th-wall story-rich and funny meta game with a plot twist.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="action">
+          <img src="https://img.itch.zone/aW1nLzk1NDg4MjcuZ2lm/315x250%23cm/RZJW%2Fn.gif" alt="" />
+          <div class="card-body">
+            <a href="https://kultisti.itch.io/dice-catcher" class="game-link">
+              <h6 class="card-title">Dice Catcher</h6>
+              <p class="card-dev">by Kultisti</p>
+              <p class="card-text">Battle your way through the dungeon and collect back all of your magic dice!</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="platformer">
+          <img src="https://img.itch.zone/aW1nLzM4NjQ5MTEucG5n/315x250%23c/mAGO7V.png" alt="" />
+          <div class="card-body">
+            <a href="https://sevencrane.itch.io/vapor-trails" class="game-link">
+              <h6 class="card-title">Vapor Trails</h6>
+              <p class="card-dev">by sevencrane</p>
+              <p class="card-text">The year is 20XX. Return to the surface of Vapor City and exact revenge.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="platformer">
+          <img src="https://img.itch.zone/aW1hZ2UvMzEzMTgvMTMzNjQyLmdpZg==/315x250%23cm/Xrjprk.gif" alt="" />
+          <div class="card-body">
+            <a href="https://maddymakesgamesinc.itch.io/celesteclassic" class="game-link">
+              <h6 class="card-title">CELESTE Classic</h6>
+              <p class="card-dev">by Maddy Makes Games</p>
+              <p class="card-text">A PICO-8 platformer about climbing a mountain, made in four days.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="platformer">
+          <img src="https://img.itch.zone/aW1nLzIxMjg1NDMwLnBuZw==/315x250%23c/Q80km5.png" alt="" />
+          <div class="card-body">
+            <a href="https://borbware.itch.io/emuurom" class="game-link">
+              <h6 class="card-title">EMUUROM</h6>
+              <p class="card-dev">by borbware</p>
+              <p class="card-text">Jump into the virtual homeworld of creatures known as EMUUROM and explore a dense, interconnected land brimming with surprises around every corner.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="puzzle">
+          <img src="https://img.itch.zone/aW1nLzM0NjMwNjMucG5n/315x250%23c/obcSPz.png" alt="" />
+          <div class="card-body">
+            <a href="https://teambeanloop.itch.io/six-cats-under" class="game-link">
+              <h6 class="card-title">Six Cats Under</h6>
+              <p class="card-dev">by Team Bean Loop</p>
+              <p class="card-text">A little point-and-click puzzle game where you rescue your herd of cats by directing them with your poltergeist powers.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="puzzle">
+          <img src="https://img.itch.zone/aW1nLzg0NDAzOTEucG5n/315x250%23c/DkF%2BIT.png" alt="" />
+          <div class="card-body">
+            <a href="https://wizbane.itch.io/the-legend-of-lumina" class="game-link">
+              <h6 class="card-title">The Legend of Lumina</h6>
+              <p class="card-dev">by Wizbane</p>
+              <p class="card-text">Explore an ancient forest, push blocks to solve puzzles, and search for a way to end the curse on your land.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="roguelite">
+          <img src="https://img.itch.zone/aW1nLzcxNTQ3NzcuZ2lm/315x250%23cm/15RJnT.gif" alt="" />
+          <div class="card-body">
+            <a href="https://jontopielski.itch.io/the-lesser-evil" class="game-link">
+              <h6 class="card-title">The Lesser Evil</h6>
+              <p class="card-dev">by Jon Topielski</p>
+              <p class="card-text">Survive 10 nights, each painstakingly harder as you get to pick a curse for yourself!</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="roguelite">
+          <img src="https://img.itch.zone/aW1nLzg3MTU5NzMucG5n/315x250%23c/svl%2Fnp.png" alt="" />
+          <div class="card-body">
+            <a href="https://flanne.itch.io/10-minutes-till-dawn" class="game-link">
+              <h6 class="card-title">10 Minutes Till Dawn</h6>
+              <p class="card-dev">by flanne</p>
+              <p class="card-text">Roguelite broken build simulator. Shoot down and survive the onslaught of an endless horde of monsters for 10 minutes!</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="roguelite">
+          <img src="https://img.itch.zone/aW1nLzI1NjAwMTAucG5n/315x250%23c/IJOCNu.png" alt="" />
+          <div class="card-body">
+            <a href="https://zak-amana.itch.io/heartscape" class="game-link">
+              <h6 class="card-title">Heartscape</h6>
+              <p class="card-dev">by Zak Amana</p>
+              <p class="card-text">A minimalist deckbuilding puzzle game made for Ludum Dare 45.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="rpg">
+          <img src="https://img.itch.zone/aW1nLzIwMjg1MDcucG5n/315x250%23c/8z9CTi.png" alt="" />
+          <div class="card-body">
+            <a href="https://pg5-studio.itch.io/steinworld">
+              <h6 class="card-title">Stein World</h6>
+              <p class="card-dev">by pg5-Studio</p>
+              <p class="card-text">Players are able to embark on numerous adventures and fight a variety of different enemies and monsters.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card" data-name="rpg">
+          <img src="https://img.itch.zone/aW1nLzg2MzczMDAucG5n/315x250%23c/ARQq8R.png" alt="" />
+          <div class="card-body">
+            <a href="https://dancollinsdev.itch.io/a-simple-quest">
+              <h6 class="card-title">A Simple Quest</h6>
+              <p class="card-dev">by dan.collins.dev</p>
+              <p class="card-text">A thief has stolen your King's family heirloom! Embark on a quest to bring it back!</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
