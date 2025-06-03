@@ -1,6 +1,6 @@
 # Artroxel
 
-Artroxel is a browser-based online gaming platform built with HTML, CSS, and JavaSCript that offers a collection of free pixel, retro, and arcade games.
+Artroxel is a browser-based online gaming platform built with HTML, CSS, and JavaScript that offers a collection of free pixel, retro, and arcade games.
 
 ## 📸 Screenshots
 
@@ -31,4 +31,4 @@ Artroxel is a browser-based online gaming platform built with HTML, CSS, and Jav
 ## ✨ Project Status
 ⚠️ No longer working on it. ⚠️
 
-The project is just a layout and is not intended to work as a legitimate platform.</p>
+The project is just a layout and is not intended to fully work as a legitimate platform.</p>
